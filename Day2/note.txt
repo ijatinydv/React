@@ -1,0 +1,13 @@
+jsx --> js + xml(can use self made tag)  -- both html and js written in this without using script tag
+
+babel --> is a converter that convert different versions of js into one specific version that understood by the browser
+
+                    Inport - Export
+
+--> In one file we can use export default only one time bcz...
+--> on import we can change the name of variable
+
+--> for multiple export we use export const a;
+--> for const export(mean export) we use import {a,b,c} from x.
+
+//rafce -- react arrow function component export
