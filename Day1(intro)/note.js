@@ -1,5 +1,5 @@
 // single page application --> website that do not reload on performing action
-// Multi page application --> website that do not reload on performing action
+// Multi page application --> website that reload on performing action
 
 // library --> gives you the boilerplate of your application the other thing you need you can install them 
 
