@@ -10,4 +10,4 @@ babel --> is a converter that convert different versions of js into one specific
 --> for multiple export we use export const a;
 --> for const export(mean export) we use import {a,b,c} from x.
 
-//rafce -- react arrow function component export
+//rafce -- react arrow function component export -- it give template
