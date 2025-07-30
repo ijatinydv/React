@@ -1,0 +1,18 @@
+--> A function component always return html
+--> we can not write anything after return
+--> we can only return single data/entity/variable/value
+--> there must be a single written in a function that must be the last statement
+
+--> fragment tag is used to wrap up the code so that we can return more data
+
+--> but in place of fragment we can use empty tag
+
+and these tag doesn't show in the frontend bcz these are tags of the react
+
+
+--> Eventlistner = which listen the event that what event is happening
+--> Eventhandler = which perform the action after listening the event
+
+--> in jsx everything written in curly braces{} run without permission
+
+--> we use {} to embedded js code
