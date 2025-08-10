@@ -13,24 +13,29 @@ const App = () => {
   })
 
   const [fullname, setfullname] = useState("")
+  const [age, setage] = useState("")
 
-  const changeHandler = (e)=>{
-    setfullname(e.target.value)
+  const SubmitHandler = (e)=>{
+    e.preventDefault()
+    const newuser = {fullname,age}
+    console.log(newuser);  // this data will be shared in api backend database 
   }
-console.log(fullname);
 
   return (
     <>
     <h1>Register User</h1>
-    <form action="">
+    <form onSubmit={SubmitHandler}>
       <input 
-      onChange={changeHandler}
+      onChange={(e)=> setfullname(e.target.value)}
       value={fullname}
       type="text" 
       placeholder='Full name'/>
 
 
-      <input type="number" placeholder='Age'/>
+      <input 
+      onChange={(e)=> setage(e.target.value)}
+      value={age}
+      type="number" placeholder='Age'/>
       <button>Submit</button>
 
     </form>
