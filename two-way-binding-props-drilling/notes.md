@@ -5,3 +5,8 @@
 - for saving in react...apply onchange
 - for displaying on screen...apply value
 - these are called input attributes 
+
+# Props Drilling
+- They travel always from parents to child in our case Create and Read are the child of app(unidirectional)
+- Data will be in common parent
+- the common data will be in the parents and the child will access it through props
