@@ -12,7 +12,7 @@ const App = () => {
     <>
       <Create todos = {todos} settodos = {settodos}/>
       <hr />
-      <Read todos = {todos}/>
+      <Read todos = {todos} settodos = {settodos}/>
     </>
   )
 }
