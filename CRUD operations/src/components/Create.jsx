@@ -24,16 +24,16 @@ const Create = (props) => {
           settitle("")
         }
 
-    const buttoncss = {
-        color : "white",
-        padding : "5px 10px",
-        borderRadius : "10px",
-        border : "none",
-        backgroundColor : "black",
-        fontSize : "18px"
-    }
+    // const buttoncss = {
+    //     color : "white",
+    //     padding : "5px 10px",
+    //     borderRadius : "10px",
+    //     border : "none",
+    //     backgroundColor : "black",
+    //     fontSize : "18px"
+    // }
   return (
-    <>
+    <div className='border w-[70%] p-10 text-center'>
         <h1>Create Tasks</h1>
       <form onSubmit={submitHandler}>
         <input type="text" 
@@ -47,9 +47,9 @@ const Create = (props) => {
         checked={completed}
         /> Completed
         <br /><br />
-        <button style={buttoncss}>Create Todo</button>
+        <button>Create Todo</button>
       </form>
-    </>
+    </div>
   )
 }
 

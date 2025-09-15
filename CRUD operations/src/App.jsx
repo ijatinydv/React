@@ -9,11 +9,11 @@ const App = () => {
   ])
 
   return (
-    <>
+    <div className='w-screen h-screen bg-gray-800 flex p-10 text-white'>
       <Create todos = {todos} settodos = {settodos}/>
       <hr />
       <Read todos = {todos} settodos = {settodos}/>
-    </>
+    </div>
   )
 }
 
